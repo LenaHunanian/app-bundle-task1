@@ -118,7 +118,6 @@ class ViewController: UIViewController {
             //buttons stack
             buttonsStackView.topAnchor.constraint(equalTo: outputTextView.bottomAnchor, constant: 15),
             buttonsStackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            buttonsStackView.bottomAnchor.constraint(greaterThanOrEqualTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -350),
         ])
     }
     //MARK: - File management
